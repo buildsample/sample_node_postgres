@@ -5,7 +5,7 @@ node_js:
   #- 0.11
 
 addons:
-  postgresql: "9.1"
+  postgresql: "9.2"
 # For xunit-file module to put results in shippable folder
 env:
  global:
@@ -49,6 +49,3 @@ notifications:
 
 #build_image: shippable/minv2:beta
     
-branches:
-  only:
-    - master
